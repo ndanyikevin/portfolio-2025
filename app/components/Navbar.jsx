@@ -31,7 +31,7 @@ export default function Navbar({isDarkMode, setIsDarkMode}) {
         </div>
         <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20": ""}`}>
             <Link href={"#top"}>
-                <img  src={ isDarkMode? assets.logo_dark : assets.logo} className='w-28 cursor-pointer mr-14' alt='ndanyikevin'/>
+                <Image  src={ isDarkMode? assets.logo_dark : assets.logo} className='w-28 cursor-pointer mr-14' alt='ndanyikevin'/>
             </Link>
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "": "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent" } `}>
                 <li className='font-ovo'> <Link href={"#top"}>Home</Link></li>
@@ -42,9 +42,9 @@ export default function Navbar({isDarkMode, setIsDarkMode}) {
             </ul>
             <div className='flex items-center gap-4'>
                 <button onClick={()=> setIsDarkMode(prev => !prev)}>
-                    <img src={ isDarkMode? assets.sun_icon : assets.moon_icon} alt='moon icon' className='w-6' />
+                    <Image src={ isDarkMode? assets.sun_icon : assets.moon_icon} alt='moon icon' className='w-6' />
                 </button>
-                <Link href={"#contact"} className='hidden lg:flex items-center gap-3 px-4 border border-gray-500 rounded-full ml-4 py-2.5 font-ovo dark:border-white/50 '>Contact <img src={isDarkMode? assets.arrow_icon_dark : assets.arrow_icon} className='w-3 ' alt='arrow_icon'/></Link>
+                <Link href={"#contact"} className='hidden lg:flex items-center gap-3 px-4 border border-gray-500 rounded-full ml-4 py-2.5 font-ovo dark:border-white/50 '>Contact <Image src={isDarkMode? assets.arrow_icon_dark : assets.arrow_icon} className='w-3 ' alt='arrow_icon'/></Link>
                 <button className='block md:hidden ml-3' onClick={openMenu}>
                     <Image src={isDarkMode? assets.menu_white : assets.menu_black} alt='black menu icon' className='w-6' />
                 </button>

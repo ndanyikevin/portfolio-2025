@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+```markdown
+# 👨‍💻 Kevin Ndanyi – Developer Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Welcome to my personal portfolio site built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It showcases my skills, projects, and journey as a full-stack developer and forex expert.
+
+🌐 **Live Site**: [ndanyikevin.dev](https://ndanyikevin.dev)
+
+---
+
+##🚀 Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Hosting**: Vercel
+- **Version Control**: Git + GitHub
+
+---
+
+## 📁 Project Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+portfolio-2025/
+├── app/                # App Router structure
+├── components/         # Reusable UI components
+├── public/             # Static assets (images, icons)
+├── styles/             # Global styles
+├── tsconfig.json       # TypeScript config
+├── tailwind.config.ts  # Tailwind config
+└── README.md           # Project documentation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- ⚡ Fast and fully responsive
+- 🌙 Dark mode toggle
+- 🧠 SEO-friendly metadata
+- 🔗 Links to all major projects
+- 📬 Contact section
+- 🛡️ Clean, professional design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧑‍💻 Getting Started
 
-## Deploy on Vercel
+To run the project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Clone the repo
+git clone https://github.com/ndanyikevin/portfolio-2025.git
+cd portfolio-2025
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Visit the site
+http://localhost:3000
+````
+
+---
+
+## 📸 Preview
+
+> *Include a screenshot here if desired: `public/screenshot.png`*
+
+---
+
+## 🙋‍♂️ About Me
+
+I'm **Kevin Ndanyi**, a passionate full-stack developer, teacher, and forex analyst from Kenya. I use my technical skills to build apps, mentor others, and lead initiatives like [ForexHighway](https://forexhighway.com).
+
+📫 Contact:
+
+* 🔗 [ndanyikevin.dev](https://ndanyikevin.dev)
+* 💼 [LinkedIn](https://linkedin.com/in/ndanyikevin)
+* 📧 [Email](mailto:ndanyikevin@gmail.com)
+
+---
+
+## 📝 License
+
+Licensed under the [MIT License](LICENSE).
+
+```
+
+---
+
+You can save this as `README.md` at the root of your project. Want me to also generate a matching `LICENSE` file or a screenshot for your preview section?
+```
